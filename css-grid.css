@@ -9,7 +9,7 @@
 }
 
 .item1 {
-grid-area:header;
+grid-area: header;
 background-color:#3a87b3;
 
 }
@@ -19,7 +19,7 @@ background-color:#46a5dc;
 }
 
 .item2 {
-grid-area:content;
+grid-area: content;
 }
 
 .item3 {
