@@ -7,7 +7,7 @@
 }
 
 .item1 {
-grid-area :1/2/3/4;
+grid-column:1/4;
 
 background-color:#3a87b3;
 }
