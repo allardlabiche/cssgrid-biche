@@ -5,11 +5,13 @@
 	grid-template-columns:repeat(3, 200px);
 	grid-template-rows:repeat(3, 200px);
 	place-content:center space-between;
-	place-items:start end;
+	place-items:center;
 
 }
 
 .item1 {
+align-self:start;
+justify-self:end;
 background-color:#3a87b3;
 
 }
