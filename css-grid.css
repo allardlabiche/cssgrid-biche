@@ -4,7 +4,7 @@
 	display:grid;
 	grid-template-columns:repeat(3, 200px);
 	grid-template-rows:repeat(3, 200px);
-	place-content:center;
+	place-content:center space-between;
 }
 
 .item1 {
