@@ -2,7 +2,9 @@
 	width:900px;
 	height:900px;
 	display:grid;
-	grid-template-area:;
+	grid-template-areas:"header header header"
+						"content content sidebar"
+						"footer footer footer";
 
 }
 
