@@ -18,4 +18,5 @@ background-color:#46a5dc;
 }
 
 .item6 {
+grid-column: span 2; 
 }
