@@ -4,11 +4,9 @@
 	display:grid;
 	grid-template-columns:repeat(3, 1fr);
 	grid-template-rows:repeat(3, 1fr);
-;
 }
 
 .item1 {
-grid-column:1/-1;
 background-color:#3a87b3;
 
 }
@@ -18,5 +16,5 @@ background-color:#46a5dc;
 }
 
 .item6 {
-grid-column: span 2; 
+
 }
