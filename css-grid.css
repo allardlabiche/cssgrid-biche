@@ -2,15 +2,12 @@
 	width:900px;
 	height:900px;
 	display:grid;
-	grid-template-columns:repeat(3, 200px);
-	grid-template-rows:repeat(3, 200px);
-	place-content:center space-between;
-	place-items:center;
+	grid-template-area:;
 
 }
 
 .item1 {
-place-self:start end;
+grid-area:header;
 background-color:#3a87b3;
 
 }
@@ -19,6 +16,14 @@ background-color:#3a87b3;
 background-color:#46a5dc;
 }
 
-.item6 {
+.item2 {
+grid-area:content;
+}
 
+.item3 {
+grid-area:sidebar;
+}
+
+.item4 {
+grid-area:footer;
 }
