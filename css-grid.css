@@ -4,10 +4,11 @@
 	display:grid;
 	grid-template-columns:repeat(3, 1fr);
 	grid-template-rows:repeat(3, 1fr);
-	gap:20px 50px;
+;
 }
 
 .item1 {
+grid-column:1/-1;
 background-color:#3a87b3;
 }
 
