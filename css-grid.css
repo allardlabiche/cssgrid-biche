@@ -10,8 +10,7 @@
 }
 
 .item1 {
-align-self:start;
-justify-self:end;
+place-self:start end;
 background-color:#3a87b3;
 
 }
