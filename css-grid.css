@@ -5,3 +5,15 @@
 	grid-template-columns:repeat(3, 1fr);
 	grid-template-rows:repeat(3, 1fr);
 }
+
+.item1 {
+grid-row-start:1;
+grid-row-end:3;
+grid-column-start:2;
+grid-column-end:4;
+background-color:#3a87b3;
+}
+
+.item1 div {
+background-color:#46a5dc;
+}
