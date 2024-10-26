@@ -15,3 +15,8 @@ background-color:#3a87b3;
 .item1 div {
 background-color:#46a5dc;
 }
+
+.item6 {
+grid-column:3/4;
+grid-row:1/2;
+}
