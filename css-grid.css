@@ -1,3 +1,31 @@
 .myContainer {
+	width:900px;
+	height:900px;
+	display:grid;
+	grid-template-areas:"header header header"
+						"content content sidebar"
+						"footer footer footer";
 
+}
+
+.item1 {
+grid-area: header;
+background-color:#3a87b3;
+
+}
+
+.item1 div {
+background-color:#46a5dc;
+}
+
+.item2 {
+grid-area: content;
+}
+
+.item3 {
+grid-area:sidebar;
+}
+
+.item4 {
+grid-area:footer;
 }
